@@ -1,7 +1,5 @@
 const { greet } = require('./use/greet/greet');
 
-const helpers = {
+exports.helpers = {
     greet
 }
-
-exports.helper = helpers;
