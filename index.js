@@ -1,5 +1,7 @@
-const greet = name => {
-    console.log(name)
+import { greet } from './use/greet/greet';
+
+class Use {
+    greet() { greet }
 }
 
-export default greet
+export default Use
