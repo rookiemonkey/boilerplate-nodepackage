@@ -1,5 +1,4 @@
-const greet = name => {
+exports.greet = function (name) {
     console.log(name)
+    return 'ito yung nireturn nung function'
 }
-
-export default greet;

@@ -1,7 +1,7 @@
-import { greet } from './use/greet/greet';
+const { greet } = require('./use/greet/greet');
 
-class Use {
-    greet() { greet }
+const helpers = {
+    greet
 }
 
-export default Use
+exports.helper = helpers;
