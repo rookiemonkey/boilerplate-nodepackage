@@ -1,13 +1,23 @@
 # About
 
-this is a test repo for uploading my first npm package
+This is a template for me to create my own npm packages
 
-## Installation
+### Installation
 
-`npm install --save utils`
+`npm i --save jsuse`
 
 ```
-    import {greet} from 'utils';
 
-    greet('John Doe')
+    const helpers = require('jsuse');
+
+    console.log(helpers) 
+    
+        // returns an object of functions depending on their use
+        {
+            helpers: {
+                basics: { greet: [Function], introduce: [Function] },
+                basicsAgain: { greetAgain: [Function], introduceAgain: [Function] }
+            }
+        }
+
 ```

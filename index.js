@@ -1,5 +1,9 @@
-const { greet } = require('./use/greet/greet');
+const { basics } = require('./basics/index');
+const { basicsAgain } = require('./basicsAgain/index');
 
 exports.helpers = {
-    greet
+    basics,
+    basicsAgain
 }
+
+console.log(exports)
