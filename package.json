@@ -2,7 +2,7 @@
   "name": "jsuse",
   "version": "1.0.11",
   "description": "this is a test repo for uploading my first npm package",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
