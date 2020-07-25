@@ -3,4 +3,4 @@ const greetAgain = function (name) {
     return 'This is the return statement for function:greetAgain'
 }
 
-export default greetAgain;
+exports.greetAgain = greetAgain;

@@ -3,4 +3,4 @@ const greet = function (name) {
     return 'This is the return statement for function:greet'
 }
 
-export default greet;
+exports.greet = greet;

@@ -3,4 +3,4 @@ const introduceAgain = function () {
     return 'This is the return statement for function:introduceAgain'
 }
 
-export default introduceAgain;
+exports.introduceAgain = introduceAgain;

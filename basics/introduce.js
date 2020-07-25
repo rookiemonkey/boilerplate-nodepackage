@@ -3,4 +3,4 @@ const introduce = function () {
     return 'This is the return statement for function:introduce'
 }
 
-export default introduce;
+exports.introduce = introduce;
