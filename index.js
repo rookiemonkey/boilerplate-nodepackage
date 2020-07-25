@@ -1,9 +1,7 @@
 const { basics } = require('./basics/index');
 const { basicsAgain } = require('./basicsAgain/index');
 
-exports.helpers = {
+export default helpers = {
     basics,
     basicsAgain
 }
-
-console.log(exports)
