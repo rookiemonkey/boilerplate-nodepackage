@@ -1,6 +1,6 @@
-const greetAgain = function (name) {
+const greetAgain = name => {
     console.log(`Good day, ${name} AGAIN`)
     return 'This is the return statement for function:greetAgain'
 }
 
-exports.greetAgain = greetAgain;
+export default greetAgain;

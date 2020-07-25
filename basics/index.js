@@ -1,7 +1,11 @@
-const greet = require('./greet')
-const introduce = require('./introduce')
+// const greet = require('./greet')
+// const introduce = require('./introduce')
+import greet from './greet.js';
+import introduce from './introduce.js';
 
-exports.basics = {
+const basics = {
     greet,
     introduce
 }
+
+export default basics;

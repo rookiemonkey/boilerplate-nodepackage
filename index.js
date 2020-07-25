@@ -1,11 +1,11 @@
-const basics = require('./basics/index');
-const basicsAgain = require('./basicsAgain/index');
+// const basics = require('./basics/index');
+// const basicsAgain = require('./basicsAgain/index');
+import basics from './basics/index.js';
+import basicsAgain from './basicsAgain/index.js';
 
 const helpers = {
-    ...basics,
-    ...basicsAgain
+    basics,
+    basicsAgain
 }
 
-console.log(helpers)
-
-module.exports.helpers = helpers;
+export default helpers

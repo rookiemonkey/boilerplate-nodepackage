@@ -1,6 +1,6 @@
-const introduceAgain = function () {
+const introduceAgain = () => {
     console.log("Hi, I'm Jarvis AGAIN")
     return 'This is the return statement for function:introduceAgain'
 }
 
-exports.introduceAgain = introduceAgain;
+export default introduceAgain;
