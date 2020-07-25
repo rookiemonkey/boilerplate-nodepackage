@@ -1,6 +1,6 @@
 {
   "name": "jsuse",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "this is a test repo for uploading my first npm package",
   "main": "index.js",
   "scripts": {
