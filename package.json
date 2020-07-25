@@ -1,6 +1,6 @@
 {
   "name": "jsuse",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "this is a test repo for uploading my first npm package",
   "main": "index.mjs",
   "scripts": {
@@ -15,6 +15,5 @@
   "bugs": {
     "url": "https://github.com/rookiemonkey/testpackage/issues"
   },
-  "homepage": "https://github.com/rookiemonkey/testpackage#readme",
-  "type": "module"
+  "homepage": "https://github.com/rookiemonkey/testpackage#readme"
 }

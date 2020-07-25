@@ -6,6 +6,4 @@ const helpers = {
     basicsAgain
 }
 
-console.log(helpers)
-
 export default helpers;
