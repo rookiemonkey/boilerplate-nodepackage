@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/rookiemonkey/testpackage/issues"
   },
-  "homepage": "https://github.com/rookiemonkey/testpackage#readme"
+  "homepage": "https://github.com/rookiemonkey/testpackage#readme",
+  "type": "module"
 }
