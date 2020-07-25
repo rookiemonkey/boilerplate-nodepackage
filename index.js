@@ -6,4 +6,4 @@ const helpers = {
     basicsAgain
 }
 
-exports.helpers = helpers;
+module.exports.helpers = helpers;
