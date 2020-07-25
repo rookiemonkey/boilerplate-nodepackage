@@ -1,9 +1,7 @@
 const greetAgain = require('./greet')
 const introduceAgain = require('./introduce')
 
-const basicsAgain = {
+exports.basicsAgain = {
     greetAgain,
     introduceAgain
 }
-
-exports.basicsAgain = basicsAgain;
